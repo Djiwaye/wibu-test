@@ -1,0 +1,14 @@
+Options: {}
+Licenses:
+  - Name: Default
+    Type: CodeMeter
+    FirmCode: 6000010
+    ProductCode: 201000
+    AccessMode: NoUserLimit
+FilesToEncrypt:
+  Input: dist-original
+  OutputFolder: dist
+LicenseLists:
+  - Id: 0
+    Licenses:
+      - Default

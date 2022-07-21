@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getStaticArray=exports.setStaticArray=void 0;class ArrayManager{}function setStaticArray(r){ArrayManager.singletonArray=r}function getStaticArray(){return ArrayManager.singletonArray}ArrayManager.singletonArray=[],exports.setStaticArray=setStaticArray,exports.getStaticArray=getStaticArray;

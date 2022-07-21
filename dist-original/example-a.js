@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getArray=exports.setArray=void 0;let someArray=[];function setArray(r){someArray=r}function getArray(){return someArray}exports.setArray=setArray,exports.getArray=getArray;
